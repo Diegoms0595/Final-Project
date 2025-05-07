@@ -9,6 +9,7 @@ body {
   padding: 0px 0;
   position: fixed;
   width: 100%;
+  top: 0;
   z-index: 100;
 }
 
@@ -84,17 +85,16 @@ body {
 .galeria {
   width: 100%;
   height: calc(100vh - 140px - 80px); 
-  /* Para la barra vertical */
   overflow-x: auto;
-  white-space: nowrap;
+  overflow-y: hidden;
   background-color: #222;
   padding-top: 140px;
 }
 
 .foto {
   display: inline-block;
-  vertical-align: top;
-  width: 400px;
+  vertical-align: top; /* Evita que se alineen en la base */
+  width: 400px; /* o el tamaño que quieras */
   margin-right: 10px;
   text-align: center;
 }

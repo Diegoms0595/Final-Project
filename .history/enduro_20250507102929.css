@@ -9,6 +9,7 @@ body {
   padding: 0px 0;
   position: fixed;
   width: 100%;
+  top: 0;
   z-index: 100;
 }
 
@@ -84,7 +85,6 @@ body {
 .galeria {
   width: 100%;
   height: calc(100vh - 140px - 80px); 
-  /* Para la barra vertical */
   overflow-x: auto;
   white-space: nowrap;
   background-color: #222;

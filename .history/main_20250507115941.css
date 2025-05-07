@@ -133,12 +133,12 @@ h1 {
 
 #about {
   position: absolute;
-  top: 10%;
-  left: 30px;
+  top: 50%;
+  left: 30px; /* Espacio desde el borde izquierdo */
+  transform: translateY(-50%); /* Centrado vertical */
   color: white;
-  background-color: rgba(14, 13, 13, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente para mejorar la legibilidad */
   padding: 20px;
   border-radius: 8px;
-  max-width: 500px;
-  z-index: 1;
+  max-width: 500px; /* Limitar el ancho para no desbordar */
 }
